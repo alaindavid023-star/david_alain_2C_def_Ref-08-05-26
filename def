@@ -1,0 +1,25 @@
+ef add(a,b):
+    return a + b
+
+print ("the total sum:", add(25,45))    
+      
+
+def printer():
+    print("HI")
+
+def returner():
+    return "HI"
+
+print (returner()+"!")
+      
+      
+def is_even(n):
+    if n % 2 == 0:
+        return f"{n} is even, TRUE"
+    else:
+        return f"{n} is odd, FALSE"
+
+
+print(is_even(4))
+print(is_even(7))
+print(is_even(25))
