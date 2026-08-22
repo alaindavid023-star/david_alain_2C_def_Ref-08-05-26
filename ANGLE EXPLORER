@@ -1,0 +1,11 @@
+import math
+angle_degrees = 60
+
+angle_radians = math.radians(angle_degrees)
+
+print("Angle in radians:", round(angle_radians, 4))
+print("sin ->", round(math.sin(angle_radians), 4))
+print("cos ->", round(math.cos(angle_radians), 4))
+print("tan ->", round(math.tan(angle_radians), 4))
+
+print()
