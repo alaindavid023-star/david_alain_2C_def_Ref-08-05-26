@@ -1,0 +1,10 @@
+import math
+
+value = -7.8
+
+print("ceil ->", math.ceil(value))
+print("floor ->", math.floor(value))
+print("trunc ->", math.trunc(value))
+
+# floor() moves down toward negative infinity to -8, while trunc() moves toward zero by dropping the decimal part to get -7.
+print()
